@@ -1,7 +1,7 @@
 /*  Custom ctype.h to overcome trouble with recent versions of Linux libc.a */
-#define NO_My_ctype
+
 #ifdef NO_My_ctype
-#include <cctype>
+#include <ctype.h>
 #else /*{*/
 #ifndef My_ctype_DEF
 extern char My_ctype[];

@@ -1,7 +1,7 @@
 Notice	76f23b4	1212
-README	19870416	16866
+README	16a3882f	16876
 abort_.c	f51c808	304
-arithchk.c	91ee1e0	5988
+arithchk.c	fae7c666	5171
 backspac.c	10ebf554	1328
 c_abs.c	fec22c59	272
 c_cos.c	18fc0ea3	354
@@ -103,8 +103,8 @@ lread.c	f1e54a1f	14739
 lwrite.c	f80da63f	4616
 main.c	371f60f	2230
 makefile.sy	174ccb83	2990
-makefile.u	ed8e28fa	7379
-makefile.vc	18a3c2ce	2954
+makefile.u	fce2cb5f	7302
+makefile.vc	179d7b1c	2942
 makefile.wat	18b044ac	2936
 math.hvc	19bb2d07	50
 mkfile.plan9	e67e471e	5174
@@ -161,7 +161,7 @@ signal1.h0	1d43ee57	842
 signal_.c	f3ef9cfc	299
 signbit.c	e37eac06	330
 sue.c	9705ecf	1865
-sysdep1.h0	f3861c2a	1252
+sysdep1.h0	1812022d	1202
 system_.c	ff72e46c	652
 typesize.c	eee307ae	386
 uio.c	e354a770	1619

@@ -1,0 +1,30 @@
+Source: libf2c2
+Section: devel
+Priority: optional
+Maintainer: Alan Bain <afrb2@debian.org>
+Standards-Version: 3.8.2
+Build-Depends: debhelper(>=5.0)
+
+Package: libf2c2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Conflicts: f2c (<< 20050501-1)
+Description: Shared libraries for use with FORTRAN applications
+ These are the shared libraries required for running 
+ applications containing a component written in FORTRAN 
+ which was converted to C using the FORTRAN to C translator
+ f2c.
+
+Package: libf2c2-dev
+Section: libdevel
+Architecture: any
+Depends: libf2c2 (= ${binary:Version}), libc6-dev
+Conflicts: f2c (<< 20050501-1)
+Description: Development libraries for use with f2c 
+ These are the necessary static libraries and header
+ files for an implementation of the fortran intrinsic
+ functions and IO functions.  
+ .
+ They are required when linking applications built from the 
+ C output from the FORTRAN to C translator f2c.
